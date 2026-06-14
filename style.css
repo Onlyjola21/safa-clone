@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arimo", sans-serif;
+}
+
+.header {
+    padding: 2.6rem;
+    text-align: center; 
+}
+
+li {
+    display: inline-block;
+    margin-right: 2.8rem;
+}
+
+.nav-list {
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 1.3rem;
+    text-underline-offset: .5rem;
+}
+
+.nav-list-i, .nav-list-ii {
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 1.3rem;
+    text-underline-offset: .5rem;
+    text-decoration: none;
+}
+
+.nav-list-i:hover, .nav-list-ii:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url(./assets/images/hero-image.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15rem;
+    /* padding-right: -50rem; */
+    padding-left: 10rem;
+    padding-bottom: 25rem;
+    color: white;
+
+}
+
+.hero-heading {
+    margin-left: 1rem;
+}
+
+.hero-paragraph {
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+h1 {
+    font-size: 4.74rem;
+    font-weight: 700;
+}
+
+.hero-btn {
+    padding: 1.2rem 2.2rem;
+    margin-top: 8.5rem;
+    background-color: rgb(5, 72, 99);
+    border: .1rem white solid;
+    cursor: pointer;
+}
+
+.hero-btn > a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.hero-btn:hover {
+    border: none;
+    background-color: rgb(8, 104, 142);
+}
+
+.new-product {
+    background-color: rgb(235, 242, 250);
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    
+}
+
+.new-product-heading {
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+    font-size: 3.7rem;
+    font-weight: 600;
+    
+}
+
+.new-product-paragraph-first {
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.new-product-paragraph-second {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.74);
+    line-height: 1.8rem;
+}
+
+.new-product-paragraph-third {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.74);
+    line-height: 1.8rem;
+}
+
+.mini-camera-img {
+    width: 760px;
+    height: 870px;
+    color: rgba(0, 0, 0, 0.74);
+    line-height: 1.8rem;
+}
+
+.photography {
+    background-image: url(./assets/images/fotik.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: .5rem;
+    padding-bottom: 15rem;
+    padding-left: 10rem;
+    padding-right: 20rem;
+    color: white;
+}
+
+.photography-heading-text {
+    font-size: 3.8rem;
+    margin-left: 1.4rem;
+    margin-top: 15rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+}
+
+.photography-paragraph-text {
+    font-size: 1.4rem;
+    margin-left: 1.8rem;
+    margin-bottom: 6rem;
+    line-height: 2rem;
+}
+
+.photography-btn {
+    padding: 1.2rem 2.2rem;
+    margin-left: 1.8rem;
+    font-size: 1.3rem;
+    background-color: rgb(5, 72, 99);
+    border: .1rem white solid;
+    cursor: pointer;
+}
+
+.photography-btn:hover {
+    border: none;
+    background-color: rgb(8, 104, 142);
+}
+
+.photography-btn > a {
+    text-decoration: none;
+    color: white;
+}
+
+.block-section {
+    background-color: rgb(25, 29, 38);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 13rem;
+    padding-left: 7rem;
+    padding-right: 15rem;
+    padding-bottom: 20rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.block-heading {
+    margin-top: -1.5rem;
+}
+
+.block-heading-i {
+    margin-top: -3rem;
+}
+
+.block-para {
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 1.9rem;
+}
+
+.review {
+    background-color: rgb(235, 242, 250);
+    padding-top: 11rem;
+    padding-left: 12rem;
+    padding-bottom: 13rem;
+}
+
+.review-heading {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.review-first-para {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgb(25, 29, 38);
+    margin-bottom: 2rem;
+}
+
+.first-writer {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.review-second-para {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgb(25, 29, 38);
+    margin-bottom: 2rem;
+}
+
+.second-writer {
+    font-size: 1.4rem;
+}
+
+.product-link {
+    background-image: url(./assets/images/sauuuuuuu-mkEkN5Z3ajHppJ3j.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 6.3rem;
+    padding-left: 7rem;
+    padding-bottom: 22rem;
+}
+
+.product-link-text {
+    font-size: 3.8rem;
+    margin-top: 9rem;
+    margin-left: 4rem;
+    margin-bottom: 3.6rem;
+}
+
+.product-link-btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    margin-left: 4rem;
+    color: white;
+    background-color: rgb(5, 72, 99);
+    border: .1rem white solid;
+    cursor: pointer;
+}
+
+.product-link-btn > a {
+    text-decoration: none;
+    color: white;
+}
+
+.product-link-btn:hover {
+    border: none;
+}
+
+.footer {
+    background-color: rgb(5, 72, 99);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 18rem;
+}
+
+.footer-left {
+    margin-left: 12rem;
+}
+
+.footer-left > .customer-service {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    margin-right: 10rem;
+}
+
+.footer-left > .customer-service-line {
+    font-size: 1.2rem;
+}
+
+.footer-center {
+    margin-top: 4.5rem;
+}
+
+.footer-link {
+    display: grid;
+}
+
+.footer-link > a {
+    color: white;
+    margin-top: 2.8rem;
+    font-size: 1.4rem;
+    margin-left: 5rem;
+}
+
+.footer-right {
+    margin-left: 40rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.socials {
+    display: flex;
+    gap: 5rem;
+    font-size: 1.8rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.product-nav-list-i {
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 1.3rem;
+    text-underline-offset: .5rem;
+}
+
+.product-nav-list, .product-nav-list-ii {
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 1.3rem;
+    text-underline-offset: .5rem;
+    text-decoration: none;
+}
+
+.product-nav-list:hover, .product-nav-list-ii:hover {
+    text-decoration: underline;
+}
+
+.shop-hero {
+    padding-top: 13rem;
+    padding-left: 11rem;
+}
+
+.shop-hero-heading {
+    font-size: 3.7rem;
+    font-weight: 500;
+    margin-bottom: 2.9rem;
+}
+
+.shop-hero-para {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.74);
+    margin-bottom: 2rem;
+}
+
+.product-card { 
+    padding-left: 11rem;
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 480px 480px 480px;
+    grid-template-rows: auto auto auto;
+    column-gap: 1.5rem;
+} 
+
+.product-img {
+    width: 480px;
+    height: 480px;
+}
+
+.card-text {
+    margin-top: 1.9rem;
+}
+
+.product-name {
+    font-size: 1.7rem;
+    margin-bottom: .6rem;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.857);
+}
+
+.price {
+    font-size: 1.35rem;
+    color: rgba(0, 0, 0, 0.74);
+    margin-bottom: 2rem;
+}
+
+.about-nav-list-ii {
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 1.3rem;
+    text-underline-offset: .5rem;
+}
+
+.about-nav-list, .about-nav-list-i {
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 1.3rem;
+    text-underline-offset: .5rem;
+    text-decoration: none;
+}
+
+.about-nav-list:hover, .about-nav-list-i:hover {
+    text-decoration: underline;
+}
+
+.about-hero {
+    padding-left: 11rem;
+    padding-top: 12.5rem;
+    padding-bottom: 14rem;
+}
+
+.about-hero-heading {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.about-hero-para {
+    font-size: 1.4rem;
+    line-height: 1.95rem;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.about-block {
+    background-color: rgb(25, 29, 38);
+}
+
+.about-block-img {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: 80%;
+}
